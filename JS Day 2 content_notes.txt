@@ -1,0 +1,42 @@
+Content:
+
+1   HTML Browser view -  debugger , Inspect
+
+2   Browser JS vs Node JS
+
+3   Data Types
+
+4   Copy by value and copy by reference 
+
+5   Window & Document object
+
+
+
+Browser JS vs Node JS:-
+
+Browser JS:- It is frontend part.We can see the results in the console part
+
+NodeJS:- It is backend part. We can the results in the terminal part
+
+Datatypes:-
+primitive=> numbers,string,boolean
+object:- array,objects
+copy by value => values(primitive Datatypes)
+copy by reference=> address (object type)
+
+//var- reassign um pannamudiyum and re declare um pannamudiyum
+var a = 10;
+a=20; //reassign um pannamudiyum
+var a = 30; //re declare um pannamudiyum
+console.log(a);
+
+//let => redeclare pannamudiyathu only reassign mattumthaa pannamudiyum
+let c = 10;
+c=20;
+console.log(c);
+
+//const => redeclare um pannamudiyathu reassign um pannamudiyathu
+const b = 5;
+b=6;
+const b = 7;
+console.log(b)
